@@ -8,25 +8,28 @@ div class="page-header"
       =link_to "フク", gears_path(part: :clothes)
     li
       =link_to "クツ", gears_path(part: :shoes)
-table class="table table-striped"
-  thead
-    tr
-      th= model_class.human_attribute_name(:id)
-      th= model_class.human_attribute_name(:name)
-      th= model_class.human_attribute_name(:part)
-      th= model_class.human_attribute_name(:gear_power_id)
-      th= model_class.human_attribute_name(:price)
-      th= model_class.human_attribute_name(:salable)
-      th= model_class.human_attribute_name(:bland_id)
-      th= model_class.human_attribute_name(:created_at)
-      th=t '.actions', :default => t("helpers.actions")
-  tbody
-    - @gears.each do |gear|
+
+= form_tag csv_gears_url do
+  table class="table table-striped"
+    thead
       tr
-        td= gear.name
-        td= gear.part
-        td= gear.gear_power_id
-        td= gear.price
-        td= gear.salable
-        td= gear.bland_id
-        td=l gear.created_at
+        th= model_class.human_attribute_name(:name)
+        th= model_class.human_attribute_name(:part)
+        th= model_class.human_attribute_name(:gear_power_id)
+        th= model_class.human_attribute_name(:price)
+        th= model_class.human_attribute_name(:salable)
+        th= model_class.human_attribute_name(:bland_id)
+        th= model_class.human_attribute_name(:created_at)
+        th=t '.actions', :default => t("helpers.actions")
+    tbody
+        - @gears.each do |gear|
+          tr
+            td= gear.name
+            td= gear.part
+            td= gear.gear_power_id
+            td= gear.price
+            td= gear.salable
+            td= gear.bland_id
+            td=l gear.created_at
+            td= check_box_tag "gear[id][]", gear.id
+  = submit_tag "CSV出力"
