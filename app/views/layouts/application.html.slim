@@ -33,15 +33,7 @@ html lang="en"
 
     .container
       .row
-        .col-lg-3
-          .well.sidebar-nav
-            h3 ギア部位
-            ul.nav.nav-list
-              li.nav-header
-              li=link_to "アタマ", gears_path(part: :head)
-              li=link_to "フク", gears_path(part: :clothes)
-              li=link_to "クツ", gears_path(part: :shoes)
-        .col-lg-9
+        .col-lg-12
           = bootstrap_flash
           = yield
 

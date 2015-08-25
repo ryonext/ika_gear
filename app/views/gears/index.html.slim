@@ -1,6 +1,8 @@
 - model_class = Gear
 div class="page-header"
-  h1=t '.title', :default => model_class.model_name.human.pluralize.titleize
+  h3  =link_to "アタマ", gears_path(part: :head)
+  h3  =link_to "フク", gears_path(part: :clothes)
+  h3  =link_to "クツ", gears_path(part: :shoes)
 
 = form_tag csv_gears_url do
   table class="table table-striped"
