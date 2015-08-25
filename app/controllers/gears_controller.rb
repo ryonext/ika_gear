@@ -4,7 +4,7 @@ class GearsController < ApplicationController
   # GET /gears
   # GET /gears.json
   def index
-    @gears = Gear.all
+    @gears = Gear.where(part: part_param)
   end
 
   # GET /gears/1
@@ -70,5 +70,10 @@ class GearsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def gear_params
       params.require(:gear).permit(:name, :part, :gear_power_id, :price, :salable, :bland_id)
+    end
+
+    def part_param
+      return :head unless params[:part]
+      params[:part]
     end
 end
