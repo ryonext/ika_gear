@@ -20,10 +20,10 @@ div class="page-header"
           tr
             td= check_box_tag "gear[id][]", gear.id
             td= gear.name
-            td= gear.part
+            td= gear.humanize_part
             td= gear.gear_power.name
             td= gear.price
-            td= gear.salable
+            td= gear.not_for_sale
             td= gear.bland.name
             td= gear.bland.high_rate.name
             td= gear.bland.low_rate.name
