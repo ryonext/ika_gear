@@ -7,7 +7,7 @@ class GearsController < ApplicationController
   end
 
   def csv
-    @gears = Gear.where(id: params[:gear][:id])
+    @gears = Gear.where(id: gear_ids)
     send_data render_to_string, filename: csv_file_name, type: :csv
   end
 
@@ -19,5 +19,11 @@ class GearsController < ApplicationController
 
     def csv_file_name
       "#{Time.zone.now}_#{part_param}.csv"
+    end
+
+    def gear_ids
+      if params[:gear]
+        params[:gear][:id]
+      end
     end
 end
