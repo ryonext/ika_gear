@@ -2,35 +2,1720 @@
 gears_1:
   name: "ヘッドバンド ホワイト"
   part: 1
-  price: "－"
-  gear_power_id: 3
-  salable: 0
   bland_id: 4
+  gear_power_id: 3
+  rarity: 1
+  price: "－"
+  salable: 0
 gears_2:
   name: "キャディ サンバイザー"
   part: 1
-  price: 400
-  gear_power_id: 8
-  salable: 1
   bland_id: 12
+  gear_power_id: 8
+  rarity: 1
+  price: 400
+  salable: 1
 gears_3:
   name: "スカッシュバンド"
   part: 1
-  price: 400
-  gear_power_id: 4
-  salable: 1
   bland_id: 12
+  gear_power_id: 4
+  rarity: 1
+  price: 400
+  salable: 1
 gears_4:
   name: "バスケバンド"
   part: 1
-  price: 300
-  gear_power_id: 13
-  salable: 1
   bland_id: 12
+  gear_power_id: 13
+  rarity: 1
+  price: 300
+  salable: 1
 gears_5:
   name: "テニスバンド"
   part: 1
-  price: 300
-  gear_power_id: 14
-  salable: 1
   bland_id: 3
+  gear_power_id: 14
+  rarity: 1
+  price: 300
+  salable: 1
+gears_6:
+  name: "イロメガネ"
+  part: 1
+  bland_id: 11
+  gear_power_id: 15
+  rarity: 1
+  price: 350
+  salable: 1
+gears_7:
+  name: "エゾッコメッシュ"
+  part: 1
+  bland_id: 11
+  gear_power_id: 12
+  rarity: 1
+  price: 500
+  salable: 1
+gears_8:
+  name: "バックワードキャップ"
+  part: 1
+  bland_id: 11
+  gear_power_id: 10
+  rarity: 1
+  price: 700
+  salable: 1
+gears_9:
+  name: "ランニングバンド"
+  part: 1
+  bland_id: 11
+  gear_power_id: 2
+  rarity: 1
+  price: 400
+  salable: 1
+gears_10:
+  name: 2ラインメッシュ
+  part: 1
+  bland_id: 9
+  gear_power_id: 11
+  rarity: 1
+  price: 700
+  salable: 1
+gears_11:
+  name: "キャンプキャップ"
+  part: 1
+  bland_id: 5
+  gear_power_id: 9
+  rarity: 1
+  price: 700
+  salable: 1
+gears_12:
+  name: "ショートビーニー"
+  part: 1
+  bland_id: 5
+  gear_power_id: 1
+  rarity: 1
+  price: 600
+  salable: 1
+gears_13:
+  name: "キャンプハット"
+  part: 1
+  bland_id: 5
+  gear_power_id: 7
+  rarity: 1
+  price: 800
+  salable: 1
+gears_14:
+  name: "クロブチ レトロ"
+  part: 1
+  bland_id: 1
+  gear_power_id: 10
+  rarity: 1
+  price: 500
+  salable: 1
+gears_15:
+  name: "ウインターボンボン"
+  part: 1
+  bland_id: 10
+  gear_power_id: 16
+  rarity: 1
+  price: 800
+  salable: 1
+gears_16:
+  name: "ウーニーズBBキャップ"
+  part: 1
+  bland_id: 10
+  gear_power_id: 17
+  rarity: 1
+  price: 600
+  salable: 1
+gears_17:
+  name: "ビバレッジキャップ"
+  part: 1
+  bland_id: 10
+  gear_power_id: 2
+  rarity: 1
+  price: 600
+  salable: 1
+gears_18:
+  name: "ジェットキャップ"
+  part: 1
+  bland_id: 2
+  gear_power_id: 11
+  rarity: 1
+  price: 700
+  salable: 1
+gears_19:
+  name: "ヤキフグ サンバイザー"
+  part: 1
+  bland_id: 2
+  gear_power_id: 6
+  rarity: 1
+  price: 500
+  salable: 1
+gears_20:
+  name: "ヤコメッシュ"
+  part: 1
+  bland_id: 6
+  gear_power_id: 5
+  rarity: 1
+  price: 400
+  salable: 1
+gears_21:
+  name: "テッカサイクルキャップ"
+  part: 1
+  bland_id: 12
+  gear_power_id: 17
+  rarity: 1
+  price: 800
+  salable: 1
+gears_22:
+  name: "イカンカン"
+  part: 1
+  bland_id: 10
+  gear_power_id: 12
+  rarity: 1
+  price: 500
+  salable: 1
+gears_23:
+  name: "フグベルハット"
+  part: 1
+  bland_id: 2
+  gear_power_id: 3
+  rarity: 1
+  price: 700
+  salable: 1
+gears_24:
+  name: "ダテコンタクト"
+  part: 1
+  bland_id: 3
+  gear_power_id: 6
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_25:
+  name: 5パネルキャップ
+  part: 1
+  bland_id: 11
+  gear_power_id: 14
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_26:
+  name: "アローバンド ブラック"
+  part: 1
+  bland_id: 11
+  gear_power_id: 16
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_27:
+  name: "ボンボンニット"
+  part: 1
+  bland_id: 1
+  gear_power_id: 12
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_28:
+  name: "ボーダービーニー"
+  part: 1
+  bland_id: 1
+  gear_power_id: 13
+  rarity: 2
+  price: 1500
+  salable: 1
+gears_29:
+  name: "オーロラヘッドホン"
+  part: 1
+  bland_id: 7
+  gear_power_id: 2
+  rarity: 2
+  price: 2500
+  salable: 1
+gears_30:
+  name: "スタジオヘッドホン"
+  part: 1
+  bland_id: 7
+  gear_power_id: 1
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_31:
+  name: "スプラッシュゴーグル"
+  part: 1
+  bland_id: 7
+  gear_power_id: 5
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_32:
+  name: "ダイバーゴーグル"
+  part: 1
+  bland_id: 7
+  gear_power_id: 4
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_33:
+  name: "ロブスターブーニー"
+  part: 1
+  bland_id: 7
+  gear_power_id: 15
+  rarity: 2
+  price: 2300
+  salable: 1
+gears_34:
+  name: "イカベーダーキャップ"
+  part: 1
+  bland_id: 10
+  gear_power_id: 6
+  rarity: 2
+  price: 2300
+  salable: 1
+gears_35:
+  name: "スケボーメット"
+  part: 1
+  bland_id: 10
+  gear_power_id: 11
+  rarity: 2
+  price: 2500
+  salable: 1
+gears_36:
+  name: "カモメッシュ"
+  part: 1
+  bland_id: 2
+  gear_power_id: 9
+  rarity: 2
+  price: 2500
+  salable: 1
+gears_37:
+  name: "タコゾネススコープ"
+  part: 1
+  bland_id: 14
+  gear_power_id: 17
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_38:
+  name: "ヒーローヘッズ レプリカ"
+  part: 1
+  bland_id: 14
+  gear_power_id: 8
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_39:
+  name: "イカパッチン"
+  part: 1
+  bland_id: 13
+  gear_power_id: 9
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_40:
+  name: "サムライヘルメット"
+  part: 1
+  bland_id: 13
+  gear_power_id: 4
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_41:
+  name: "パワードマスク"
+  part: 1
+  bland_id: 13
+  gear_power_id: 5
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_42:
+  name: "サンサンサンバイザー"
+  part: 1
+  bland_id: 3
+  gear_power_id: 17
+  rarity: 2
+  price: 2600
+  salable: 1
+gears_43:
+  name: "チャリキング帽"
+  part: 1
+  bland_id: 3
+  gear_power_id: 5
+  rarity: 2
+  price: 2400
+  salable: 1
+gears_44:
+  name: "スゲ"
+  part: 1
+  bland_id: 5
+  gear_power_id: 1
+  rarity: 2
+  price: 2200
+  salable: 1
+gears_45:
+  name: "タイショウのはちまき"
+  part: 1
+  bland_id: 17
+  gear_power_id: 14
+  rarity: 2
+  price: 1600
+  salable: 1
+gears_46:
+  name: "イカ娘ずきん"
+  part: 1
+  bland_id: 16
+  gear_power_id: 13
+  rarity: 2
+  price: 1600
+  salable: 1
+gears_47:
+  name: "アローバンド ホワイト"
+  part: 1
+  bland_id: 11
+  gear_power_id: 7
+  rarity: 3
+  price: 8000
+  salable: 1
+gears_48:
+  name: "タコマスク"
+  part: 1
+  bland_id: 7
+  gear_power_id: 16
+  rarity: 3
+  price: 11000
+  salable: 1
+gears_49:
+  name: "テンタクルズメット"
+  part: 1
+  bland_id: 7
+  gear_power_id: 8
+  rarity: 3
+  price: 11000
+  salable: 1
+gears_50:
+  name: "パイロットゴーグル"
+  part: 1
+  bland_id: 7
+  gear_power_id: 17
+  rarity: 3
+  price: 9800
+  salable: 1
+gears_51:
+  name: "フェイスゴーグル"
+  part: 1
+  bland_id: 7
+  gear_power_id: 14
+  rarity: 3
+  price: 10000
+  salable: 1
+gears_52:
+  name: "サイクルメット"
+  part: 1
+  bland_id: 10
+  gear_power_id: 3
+  rarity: 3
+  price: 11000
+  salable: 1
+gears_53:
+  name: "チドリキャップ"
+  part: 1
+  bland_id: 10
+  gear_power_id: 13
+  rarity: 3
+  price: 8500
+  salable: 1
+gears_54:
+  name: "バイザーメット"
+  part: 1
+  bland_id: 10
+  gear_power_id: 15
+  rarity: 3
+  price: 10000
+  salable: 1
+gears_55:
+  name: "サファリハット"
+  part: 1
+  bland_id: 2
+  gear_power_id: 1
+  rarity: 3
+  price: 9000
+  salable: 1
+gears_56:
+  name: "ナイトビジョン"
+  part: 1
+  bland_id: 7
+  gear_power_id: 9
+  rarity: 3
+  price: 9800
+  salable: 1
+gears_57:
+  name: "タレサン18K"
+  part: 1
+  bland_id: 8
+  gear_power_id: 15
+  rarity: 3
+  price: 12000
+  salable: 1
+gears_58:
+  name: "アーマーメット レプリカ"
+  part: 1
+  bland_id: 14
+  gear_power_id: 16
+  rarity: 3
+  price: "－"
+  salable: 0
+gears_59:
+  name: "伝説の帽子"
+  part: 1
+  bland_id: 14
+  gear_power_id: 4
+  rarity: 3
+  price: "－"
+  salable: 0
+gears_60:
+  name: "わかばイカT"
+  part: 2
+  bland_id: 4
+  gear_power_id: 10
+  rarity: 1
+  price: "－"
+  salable: 0
+gears_61:
+  name: "アイロニックレイヤード"
+  part: 2
+  bland_id: 12
+  gear_power_id: 4
+  rarity: 1
+  price: 600
+  salable: 1
+gears_62:
+  name: "アイロニックロング"
+  part: 2
+  bland_id: 12
+  gear_power_id: 7
+  rarity: 1
+  price: 500
+  salable: 1
+gears_63:
+  name: "ウーニーズBBシャツ"
+  part: 2
+  bland_id: 12
+  gear_power_id: 8
+  rarity: 1
+  price: 700
+  salable: 1
+gears_64:
+  name: "バスケジャージ アウェイ"
+  part: 2
+  bland_id: 12
+  gear_power_id: 2
+  rarity: 1
+  price: 800
+  salable: 1
+gears_65:
+  name: "イカノメT ブラック"
+  part: 2
+  bland_id: 3
+  gear_power_id: 8
+  rarity: 1
+  price: 500
+  salable: 1
+gears_66:
+  name: "イカノメT ライトブルー"
+  part: 2
+  bland_id: 3
+  gear_power_id: 18
+  rarity: 1
+  price: 500
+  salable: 1
+gears_67:
+  name: "かくれパイレーツ"
+  part: 2
+  bland_id: 3
+  gear_power_id: 4
+  rarity: 1
+  price: 800
+  salable: 1
+gears_68:
+  name: "エゾッコラグラン"
+  part: 2
+  bland_id: 11
+  gear_power_id: 5
+  rarity: 1
+  price: 800
+  salable: 1
+gears_69:
+  name: "サニーオレンジT"
+  part: 2
+  bland_id: 9
+  gear_power_id: 6
+  rarity: 1
+  price: 300
+  salable: 1
+gears_70:
+  name: "レイニーブルーT"
+  part: 2
+  bland_id: 9
+  gear_power_id: 1
+  rarity: 1
+  price: 300
+  salable: 1
+gears_71:
+  name: "ボーダーモスグリーン"
+  part: 2
+  bland_id: 5
+  gear_power_id: 21
+  rarity: 1
+  price: 700
+  salable: 1
+gears_72:
+  name: "ヤマビコT アイボリー"
+  part: 2
+  bland_id: 5
+  gear_power_id: 19
+  rarity: 1
+  price: 400
+  salable: 1
+gears_73:
+  name: "ヤマビコT ブルー"
+  part: 2
+  bland_id: 5
+  gear_power_id: 2
+  rarity: 1
+  price: 400
+  salable: 1
+gears_74:
+  name: "カレッジスウェット グレー"
+  part: 2
+  bland_id: 1
+  gear_power_id: 9
+  rarity: 1
+  price: 800
+  salable: 1
+gears_75:
+  name: "カレッジラグラン"
+  part: 2
+  bland_id: 1
+  gear_power_id: 20
+  rarity: 1
+  price: 700
+  salable: 1
+gears_76:
+  name: "さくらエビポロ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 21
+  rarity: 1
+  price: 400
+  salable: 1
+gears_77:
+  name: "シャンブレーシャツ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 17
+  rarity: 1
+  price: 700
+  salable: 1
+gears_78:
+  name: "パイレーツボーダー"
+  part: 2
+  bland_id: 1
+  gear_power_id: 7
+  rarity: 1
+  price: 700
+  salable: 1
+gears_79:
+  name: "マリンボーダー"
+  part: 2
+  bland_id: 1
+  gear_power_id: 8
+  rarity: 1
+  price: 700
+  salable: 1
+gears_80:
+  name: "よもぎポロ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 18
+  rarity: 1
+  price: 400
+  salable: 1
+gears_81:
+  name: "イカバッテンマスタード"
+  part: 2
+  bland_id: 4
+  gear_power_id: 17
+  rarity: 1
+  price: 800
+  salable: 1
+gears_82:
+  name: "イカバッテンロング"
+  part: 2
+  bland_id: 4
+  gear_power_id: 19
+  rarity: 1
+  price: 600
+  salable: 1
+gears_83:
+  name: "イカブラック"
+  part: 2
+  bland_id: 4
+  gear_power_id: 7
+  rarity: 1
+  price: 400
+  salable: 1
+gears_84:
+  name: "イカホワイト"
+  part: 2
+  bland_id: 4
+  gear_power_id: 2
+  rarity: 1
+  price: 400
+  salable: 1
+gears_85:
+  name: "カモガサネ"
+  part: 2
+  bland_id: 4
+  gear_power_id: 6
+  rarity: 1
+  price: 600
+  salable: 1
+gears_86:
+  name: "マスタードガサネ"
+  part: 2
+  bland_id: 4
+  gear_power_id: 12
+  rarity: 1
+  price: 500
+  salable: 1
+gears_87:
+  name: "レイヤード ブラック"
+  part: 2
+  bland_id: 4
+  gear_power_id: 1
+  rarity: 1
+  price: 500
+  salable: 1
+gears_88:
+  name: "レイヤード ホワイト"
+  part: 2
+  bland_id: 4
+  gear_power_id: 11
+  rarity: 1
+  price: 500
+  salable: 1
+gears_89:
+  name: "おどるイカアロハ"
+  part: 2
+  bland_id: 7
+  gear_power_id: 3
+  rarity: 1
+  price: 700
+  salable: 1
+gears_90:
+  name: "グレープT"
+  part: 2
+  bland_id: 10
+  gear_power_id: 3
+  rarity: 1
+  price: 400
+  salable: 1
+gears_91:
+  name: "ミントT"
+  part: 2
+  bland_id: 10
+  gear_power_id: 5
+  rarity: 1
+  price: 400
+  salable: 1
+gears_92:
+  name: "ヤキフグ8bit ブラック"
+  part: 2
+  bland_id: 2
+  gear_power_id: 5
+  rarity: 1
+  price: 600
+  salable: 1
+gears_93:
+  name: "ヤキフグ8bit ホワイト"
+  part: 2
+  bland_id: 2
+  gear_power_id: 20
+  rarity: 1
+  price: 600
+  salable: 1
+gears_94:
+  name: "トリコロールラガー"
+  part: 2
+  bland_id: 6
+  gear_power_id: 10
+  rarity: 1
+  price: 700
+  salable: 1
+gears_95:
+  name: "ベクトルパターン グレー"
+  part: 2
+  bland_id: 6
+  gear_power_id: 12
+  rarity: 1
+  price: 500
+  salable: 1
+gears_96:
+  name: "ベクトルパターン レッド"
+  part: 2
+  bland_id: 6
+  gear_power_id: 1
+  rarity: 1
+  price: 500
+  salable: 1
+gears_97:
+  name: "ハラグロラグラン"
+  part: 2
+  bland_id: 8
+  gear_power_id: 9
+  rarity: 1
+  price: 800
+  salable: 1
+gears_98:
+  name: "ハラシロラグラン"
+  part: 2
+  bland_id: 8
+  gear_power_id: 12
+  rarity: 1
+  price: 800
+  salable: 1
+gears_99:
+  name: "ロッケンベルグT ブラック"
+  part: 2
+  bland_id: 8
+  gear_power_id: 4
+  rarity: 1
+  price: 800
+  salable: 1
+gears_100:
+  name: "ドカンT ブラック"
+  part: 2
+  bland_id: 15
+  gear_power_id: 11
+  rarity: 1
+  price: 800
+  salable: 1
+gears_101:
+  name: "ラインT ホワイト"
+  part: 2
+  bland_id: 15
+  gear_power_id: 9
+  rarity: 1
+  price: 700
+  salable: 1
+gears_102:
+  name: "イカゴッチンベスト"
+  part: 2
+  bland_id: 9
+  gear_power_id: 7
+  rarity: 1
+  price: 800
+  salable: 1
+gears_103:
+  name: "レタード オレンジ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 6
+  rarity: 1
+  price: 700
+  salable: 1
+gears_104:
+  name: "カレッジスウェットネイビー"
+  part: 2
+  bland_id: 1
+  gear_power_id: 4
+  rarity: 1
+  price: 800
+  salable: 1
+gears_105:
+  name: "チドリメロンT"
+  part: 2
+  bland_id: 10
+  gear_power_id: 9
+  rarity: 1
+  price: 400
+  salable: 1
+gears_106:
+  name: "ニクショクT"
+  part: 2
+  bland_id: 2
+  gear_power_id: 5
+  rarity: 1
+  price: 500
+  salable: 1
+gears_107:
+  name: "マルエリシャツ"
+  part: 2
+  bland_id: 8
+  gear_power_id: 2
+  rarity: 1
+  price: 600
+  salable: 1
+gears_108:
+  name: "バスケジャージ ホーム"
+  part: 2
+  bland_id: 12
+  gear_power_id: 11
+  rarity: 2
+  price: 2300
+  salable: 1
+gears_109:
+  name: "エゾッコパーカー アズキ"
+  part: 2
+  bland_id: 11
+  gear_power_id: 21
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_110:
+  name: "ギンガムチェック アカ"
+  part: 2
+  bland_id: 11
+  gear_power_id: 1
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_111:
+  name: "ギンガムチェック ミドリ"
+  part: 2
+  bland_id: 11
+  gear_power_id: 17
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_112:
+  name: "バニーポップ ブラック"
+  part: 2
+  bland_id: 11
+  gear_power_id: 12
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_113:
+  name: "マウンテンベリー"
+  part: 2
+  bland_id: 5
+  gear_power_id: 7
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_114:
+  name: "シロシャツ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 3
+  rarity: 2
+  price: 1800
+  salable: 1
+gears_115:
+  name: "ブロックストライプシャツ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 12
+  rarity: 2
+  price: 2200
+  salable: 1
+gears_116:
+  name: "ベイビークラゲシャツ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 5
+  rarity: 2
+  price: 2200
+  salable: 1
+gears_117:
+  name: "ボーダーネイビー"
+  part: 2
+  bland_id: 1
+  gear_power_id: 4
+  rarity: 2
+  price: 2300
+  salable: 1
+gears_118:
+  name: "ボーダーホワイト"
+  part: 2
+  bland_id: 1
+  gear_power_id: 10
+  rarity: 2
+  price: 2300
+  salable: 1
+gears_119:
+  name: "イカリスウェット"
+  part: 2
+  bland_id: 4
+  gear_power_id: 18
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_120:
+  name: "ガチブラック"
+  part: 2
+  bland_id: 4
+  gear_power_id: 20
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_121:
+  name: "アーバンベスト イエロー"
+  part: 2
+  bland_id: 2
+  gear_power_id: 19
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_122:
+  name: "ジップアップ グリーン"
+  part: 2
+  bland_id: 2
+  gear_power_id: 7
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_123:
+  name: "ホッコリー ネイビー"
+  part: 2
+  bland_id: 2
+  gear_power_id: 17
+  rarity: 2
+  price: 2500
+  salable: 1
+gears_124:
+  name: "オレンジボーダーラガー"
+  part: 2
+  bland_id: 6
+  gear_power_id: 8
+  rarity: 2
+  price: 2300
+  salable: 1
+gears_125:
+  name: "チョコガサネ"
+  part: 2
+  bland_id: 6
+  gear_power_id: 2
+  rarity: 2
+  price: 1800
+  salable: 1
+gears_126:
+  name: "ベクトルラインガサネ"
+  part: 2
+  bland_id: 6
+  gear_power_id: 11
+  rarity: 2
+  price: 2500
+  salable: 1
+gears_127:
+  name: "ロッケンベルグT ホワイト"
+  part: 2
+  bland_id: 8
+  gear_power_id: 3
+  rarity: 2
+  price: 2500
+  salable: 1
+gears_128:
+  name: "タコゾネスプロテクター"
+  part: 2
+  bland_id: 14
+  gear_power_id: 2
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_129:
+  name: "ヒーロージャケット レプリカ"
+  part: 2
+  bland_id: 14
+  gear_power_id: 9
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_130:
+  name: "サムライジャケット"
+  part: 2
+  bland_id: 13
+  gear_power_id: 6
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_131:
+  name: "スクールブレザー"
+  part: 2
+  bland_id: 13
+  gear_power_id: 3
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_132:
+  name: "パワードスーツ"
+  part: 2
+  bland_id: 13
+  gear_power_id: 10
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_133:
+  name: "テッカサイクルシャツ"
+  part: 2
+  bland_id: 12
+  gear_power_id: 18
+  rarity: 2
+  price: 2900
+  salable: 1
+gears_134:
+  name: "スクールジャージー"
+  part: 2
+  bland_id: 12
+  gear_power_id: 21
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_135:
+  name: "ミックスシャツ グレー"
+  part: 2
+  bland_id: 11
+  gear_power_id: 12
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_136:
+  name: "ロゴマシマシアロハ"
+  part: 2
+  bland_id: 11
+  gear_power_id: 3
+  rarity: 2
+  price: 2900
+  salable: 1
+gears_137:
+  name: "レタード グリーン"
+  part: 2
+  bland_id: 1
+  gear_power_id: 20
+  rarity: 2
+  price: 1700
+  salable: 1
+gears_138:
+  name: "グリーンT"
+  part: 2
+  bland_id: 7
+  gear_power_id: 11
+  rarity: 2
+  price: 1500
+  salable: 1
+gears_139:
+  name: "タイショウのまえかけ"
+  part: 2
+  bland_id: 17
+  gear_power_id: 10
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_140:
+  name: "イカ娘ノースリーブ"
+  part: 2
+  bland_id: 16
+  gear_power_id: 4
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_141:
+  name: "スタジャンロゴマシ"
+  part: 2
+  bland_id: 11
+  gear_power_id: 4
+  rarity: 3
+  price: 12000
+  salable: 1
+gears_142:
+  name: "マウンテンオリーブ"
+  part: 2
+  bland_id: 5
+  gear_power_id: 20
+  rarity: 3
+  price: 11000
+  salable: 1
+gears_143:
+  name: "マウンテンダウン"
+  part: 2
+  bland_id: 5
+  gear_power_id: 9
+  rarity: 3
+  price: 11000
+  salable: 1
+gears_144:
+  name: "ガチホワイト"
+  part: 2
+  bland_id: 4
+  gear_power_id: 21
+  rarity: 3
+  price: 8000
+  salable: 1
+gears_145:
+  name: "レトロジャッジ"
+  part: 2
+  bland_id: 4
+  gear_power_id: 5
+  rarity: 3
+  price: 9000
+  salable: 1
+gears_146:
+  name: "アーバンベスト ナイト"
+  part: 2
+  bland_id: 2
+  gear_power_id: 18
+  rarity: 3
+  price: 10000
+  salable: 1
+gears_147:
+  name: "ジップアップ カモ"
+  part: 2
+  bland_id: 2
+  gear_power_id: 10
+  rarity: 3
+  price: 9000
+  salable: 1
+gears_148:
+  name: "ミスターベースボール"
+  part: 2
+  bland_id: 2
+  gear_power_id: 6
+  rarity: 3
+  price: 10000
+  salable: 1
+gears_149:
+  name: "ヴィンテージチェック"
+  part: 2
+  bland_id: 8
+  gear_power_id: 19
+  rarity: 3
+  price: 9000
+  salable: 1
+gears_150:
+  name: "フェスT"
+  part: 2
+  bland_id: 4
+  gear_power_id: 11
+  rarity: 3
+  price: "－"
+  salable: 0
+gears_151:
+  name: FCジャージー
+  part: 2
+  bland_id: 12
+  gear_power_id: 10
+  rarity: 3
+  price: 9000
+  salable: 1
+gears_152:
+  name: "チャリキングジャージ"
+  part: 2
+  bland_id: 3
+  gear_power_id: 5
+  rarity: 3
+  price: 8900
+  salable: 1
+gears_153:
+  name: "タイシャツ"
+  part: 2
+  bland_id: 1
+  gear_power_id: 11
+  rarity: 3
+  price: 8400
+  salable: 1
+gears_154:
+  name: "ガチガサネ"
+  part: 2
+  bland_id: 4
+  gear_power_id: 8
+  rarity: 3
+  price: 8500
+  salable: 1
+gears_155:
+  name: "イカライダーBLACK"
+  part: 2
+  bland_id: 8
+  gear_power_id: 17
+  rarity: 3
+  price: 10100
+  salable: 1
+gears_156:
+  name: "イカライダーWHITE"
+  part: 2
+  bland_id: 8
+  gear_power_id: 7
+  rarity: 3
+  price: 11800
+  salable: 1
+gears_157:
+  name: "アーマージャケット レプリカ"
+  part: 2
+  bland_id: 14
+  gear_power_id: 6
+  rarity: 3
+  price: "－"
+  salable: 0
+gears_158:
+  name: "タコT"
+  part: 2
+  bland_id: 14
+  gear_power_id: 19
+  rarity: 3
+  price: "－"
+  salable: 0
+gears_159:
+  name: "キャンバス ホワイト"
+  part: 3
+  bland_id: 9
+  gear_power_id: 11
+  rarity: 1
+  price: "－"
+  salable: 0
+gears_160:
+  name: "シーホース ホワイト"
+  part: 3
+  bland_id: 12
+  gear_power_id: 3
+  rarity: 1
+  price: 600
+  salable: 1
+gears_161:
+  name: "シーホースHi ゾンビ"
+  part: 3
+  bland_id: 12
+  gear_power_id: 6
+  rarity: 1
+  price: 800
+  salable: 1
+gears_162:
+  name: "シーホースHi パープル"
+  part: 3
+  bland_id: 12
+  gear_power_id: 7
+  rarity: 1
+  price: 800
+  salable: 1
+gears_163:
+  name: "シーホースHi レッド"
+  part: 3
+  bland_id: 12
+  gear_power_id: 1
+  rarity: 1
+  price: 800
+  salable: 1
+gears_164:
+  name: "ウミウシイエロー"
+  part: 3
+  bland_id: 3
+  gear_power_id: 23
+  rarity: 1
+  price: 700
+  salable: 1
+gears_165:
+  name: "ウミウシパープル"
+  part: 3
+  bland_id: 3
+  gear_power_id: 8
+  rarity: 1
+  price: 800
+  salable: 1
+gears_166:
+  name: "シアンビーンズ"
+  part: 3
+  bland_id: 3
+  gear_power_id: 4
+  rarity: 1
+  price: 700
+  salable: 1
+gears_167:
+  name: "ピンクビーンズ"
+  part: 3
+  bland_id: 3
+  gear_power_id: 17
+  rarity: 1
+  price: 500
+  salable: 1
+gears_168:
+  name: "ブラックビーンズ"
+  part: 3
+  bland_id: 3
+  gear_power_id: 10
+  rarity: 1
+  price: 500
+  salable: 1
+gears_169:
+  name: "グリッチョ オレンジ"
+  part: 3
+  bland_id: 11
+  gear_power_id: 9
+  rarity: 1
+  price: 800
+  salable: 1
+gears_170:
+  name: "グリッチョ ブルー"
+  part: 3
+  bland_id: 11
+  gear_power_id: 5
+  rarity: 1
+  price: 800
+  salable: 1
+gears_171:
+  name: "オイスタークロッグ"
+  part: 3
+  bland_id: 9
+  gear_power_id: 8
+  rarity: 1
+  price: 600
+  salable: 1
+gears_172:
+  name: "キャンバス クマノミ"
+  part: 3
+  bland_id: 9
+  gear_power_id: 6
+  rarity: 1
+  price: 500
+  salable: 1
+gears_173:
+  name: "キャンバス バナナ"
+  part: 3
+  bland_id: 9
+  gear_power_id: 24
+  rarity: 1
+  price: 400
+  salable: 1
+gears_174:
+  name: "キャンバスHi マッシュルーム"
+  part: 3
+  bland_id: 9
+  gear_power_id: 22
+  rarity: 1
+  price: 500
+  salable: 1
+gears_175:
+  name: "キャンバスHi モロヘイヤ"
+  part: 3
+  bland_id: 9
+  gear_power_id: 3
+  rarity: 1
+  price: 500
+  salable: 1
+gears_176:
+  name: "スリッポン ブルー"
+  part: 3
+  bland_id: 9
+  gear_power_id: 17
+  rarity: 1
+  price: 300
+  salable: 1
+gears_177:
+  name: "スリッポン レッド"
+  part: 3
+  bland_id: 9
+  gear_power_id: 12
+  rarity: 1
+  price: 300
+  salable: 1
+gears_178:
+  name: "ブルーベリーコンフォート"
+  part: 3
+  bland_id: 9
+  gear_power_id: 2
+  rarity: 1
+  price: 700
+  salable: 1
+gears_179:
+  name: "オレンジアローズ"
+  part: 3
+  bland_id: 6
+  gear_power_id: 1
+  rarity: 1
+  price: 700
+  salable: 1
+gears_180:
+  name: "ラバーソール ホワイト"
+  part: 3
+  bland_id: 8
+  gear_power_id: 9
+  rarity: 1
+  price: 800
+  salable: 1
+gears_181:
+  name: "レイニーアセロラ"
+  part: 3
+  bland_id: 5
+  gear_power_id: 8
+  rarity: 1
+  price: 600
+  salable: 1
+gears_182:
+  name: "ベリベリレッド"
+  part: 3
+  bland_id: 1
+  gear_power_id: 23
+  rarity: 1
+  price: 700
+  salable: 1
+gears_183:
+  name: "イカスミチップ"
+  part: 3
+  bland_id: 8
+  gear_power_id: 10
+  rarity: 1
+  price: 800
+  salable: 1
+gears_184:
+  name: "シーホース ブラックレザー"
+  part: 3
+  bland_id: 12
+  gear_power_id: 9
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_185:
+  name: "シーホース イエロー"
+  part: 3
+  bland_id: 12
+  gear_power_id: 24
+  rarity: 2
+  price: 1500
+  salable: 1
+gears_186:
+  name: "シーホースHi ゴールド"
+  part: 3
+  bland_id: 12
+  gear_power_id: 8
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_187:
+  name: "アケビコンフォート"
+  part: 3
+  bland_id: 9
+  gear_power_id: 4
+  rarity: 2
+  price: 2000
+  salable: 1
+gears_188:
+  name: "キャンバスHi トマト"
+  part: 3
+  bland_id: 9
+  gear_power_id: 23
+  rarity: 2
+  price: 1800
+  salable: 1
+gears_189:
+  name: "スリッポン チドリ"
+  part: 3
+  bland_id: 9
+  gear_power_id: 5
+  rarity: 2
+  price: 1500
+  salable: 1
+gears_190:
+  name: "チョコクロッグ"
+  part: 3
+  bland_id: 9
+  gear_power_id: 10
+  rarity: 2
+  price: 1800
+  salable: 1
+gears_191:
+  name: "トレッキングライト"
+  part: 3
+  bland_id: 5
+  gear_power_id: 3
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_192:
+  name: "ホワイトアローズ"
+  part: 3
+  bland_id: 6
+  gear_power_id: 7
+  rarity: 2
+  price: 2500
+  salable: 1
+gears_193:
+  name: "ヌバックブーツ イエロー"
+  part: 3
+  bland_id: 8
+  gear_power_id: 17
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_194:
+  name: "モトクロスブーツ"
+  part: 3
+  bland_id: 8
+  gear_power_id: 10
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_195:
+  name: "ラバーソール チェリー"
+  part: 3
+  bland_id: 8
+  gear_power_id: 22
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_196:
+  name: "ラバーソール ターコイズ"
+  part: 3
+  bland_id: 8
+  gear_power_id: 6
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_197:
+  name: "タコゾネスブーツ"
+  part: 3
+  bland_id: 14
+  gear_power_id: 11
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_198:
+  name: "ヒーローキックス レプリカ"
+  part: 3
+  bland_id: 14
+  gear_power_id: 12
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_199:
+  name: "サムライシューズ"
+  part: 3
+  bland_id: 13
+  gear_power_id: 7
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_200:
+  name: "スクールローファー"
+  part: 3
+  bland_id: 13
+  gear_power_id: 2
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_201:
+  name: "パワードレッグス"
+  part: 3
+  bland_id: 13
+  gear_power_id: 1
+  rarity: 2
+  price: "－"
+  salable: 0
+gears_202:
+  name: "レイニーモスグリーン"
+  part: 3
+  bland_id: 5
+  gear_power_id: 22
+  rarity: 2
+  price: 1600
+  salable: 1
+gears_203:
+  name: "トレッキングカスタム"
+  part: 3
+  bland_id: 5
+  gear_power_id: 7
+  rarity: 2
+  price: 3000
+  salable: 1
+gears_204:
+  name: "ロッキンホワイト"
+  part: 3
+  bland_id: 8
+  gear_power_id: 6
+  rarity: 2
+  price: 2800
+  salable: 1
+gears_205:
+  name: "タイショウのげた"
+  part: 3
+  bland_id: 17
+  gear_power_id: 8
+  rarity: 2
+  price: 1700
+  salable: 1
+gears_206:
+  name: "イカ娘シューズ"
+  part: 3
+  bland_id: 16
+  gear_power_id: 9
+  rarity: 2
+  price: 1700
+  salable: 1
+gears_207:
+  name: "ウミウシレッド"
+  part: 3
+  bland_id: 3
+  gear_power_id: 11
+  rarity: 3
+  price: 8000
+  salable: 1
+gears_208:
+  name: "グリッチョ グリーン 限定版"
+  part: 3
+  bland_id: 11
+  gear_power_id: 2
+  rarity: 3
+  price: 8000
+  salable: 1
+gears_209:
+  name: "トレッキングプロ"
+  part: 3
+  bland_id: 5
+  gear_power_id: 24
+  rarity: 3
+  price: 9800
+  salable: 1
+gears_210:
+  name: "クレイジーアローズ"
+  part: 3
+  bland_id: 6
+  gear_power_id: 22
+  rarity: 3
+  price: 9000
+  salable: 1
+gears_211:
+  name: "ヌバックブーツ レッド"
+  part: 3
+  bland_id: 8
+  gear_power_id: 12
+  rarity: 3
+  price: 11000
+  salable: 1
+gears_212:
+  name: "モトクロス ソリッドブルー"
+  part: 3
+  bland_id: 8
+  gear_power_id: 23
+  rarity: 3
+  price: 12000
+  salable: 1
+gears_213:
+  name: "ベリベリホワイト"
+  part: 3
+  bland_id: 1
+  gear_power_id: 2
+  rarity: 3
+  price: 8700
+  salable: 1
+gears_214:
+  name: "ユデスパイカ"
+  part: 3
+  bland_id: 6
+  gear_power_id: 24
+  rarity: 3
+  price: 9600
+  salable: 1
+gears_215:
+  name: "アーマーブーツ レプリカ"
+  part: 3
+  bland_id: 14
+  gear_power_id: 1
+  rarity: 3
+  price: "－"
+  salable: 0

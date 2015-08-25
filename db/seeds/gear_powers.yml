@@ -41,3 +41,33 @@ gear_powers_13:
 gear_powers_14:
   id: 14
   name: "カムバック"
+gear_powers_15:
+  id: 15
+  name: "ラストスパート"
+gear_powers_16:
+  id: 16
+  name: "逆境強化"
+gear_powers_17:
+  id: 17
+  name: "ボム飛距離アップ"
+gear_powers_18:
+  id: 18
+  name: "マーキングガード"
+gear_powers_19:
+  id: 19
+  name: "うらみ"
+gear_powers_20:
+  id: 20
+  name: "スタートレーダー"
+gear_powers_21:
+  id: 21
+  name: "イカニンジャ"
+gear_powers_22:
+  id: 22
+  name: "ステルスジャンプ"
+gear_powers_23:
+  id: 23
+  name: "安全シューズ"
+gear_powers_24:
+  id: 24
+  name: "ボムサーチ"
