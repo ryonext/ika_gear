@@ -6,21 +6,25 @@ div class="page-header"
   table class="table table-striped"
     thead
       tr
-        th= model_class.human_attribute_name(:name)
-        th= model_class.human_attribute_name(:part)
-        th= model_class.human_attribute_name(:gear_power_id)
-        th= model_class.human_attribute_name(:price)
-        th= model_class.human_attribute_name(:salable)
-        th= model_class.human_attribute_name(:bland_id)
-        th=t '.actions', :default => t("helpers.actions")
+        th= "持ってない！"
+        th= "名前"
+        th= "部位"
+        th= "メインギアパワー"
+        th= "価格"
+        th= "非売品"
+        th= "ブランド"
+        th= "付きやすいサブギア"
+        th= "付きにくいサブギア"
     tbody
         - @gears.each do |gear|
           tr
+            td= check_box_tag "gear[id][]", gear.id
             td= gear.name
             td= gear.part
-            td= gear.gear_power_id
+            td= gear.gear_power.name
             td= gear.price
             td= gear.salable
-            td= gear.bland_id
-            td= check_box_tag "gear[id][]", gear.id
+            td= gear.bland.name
+            td= gear.bland.high_rate.name
+            td= gear.bland.low_rate.name
   = submit_tag "CSV出力"
