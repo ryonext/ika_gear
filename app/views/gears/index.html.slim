@@ -1,8 +1,11 @@
 - model_class = Gear
 div class="page-header"
-  h3  =link_to "アタマ", gears_path(part: :head)
-  h3  =link_to "フク", gears_path(part: :clothes)
-  h3  =link_to "クツ", gears_path(part: :shoes)
+  h2 使い方
+  p 持ってないギアにチェックして、"CSV出力"ボタンを押すとそのギア達がCSVに出るので広場からダウニー発注する時にお使いください
+  ul
+    li=link_to "アタマ", gears_path(part: :head)
+    li=link_to "フク", gears_path(part: :clothes)
+    li=link_to "クツ", gears_path(part: :shoes)
 
 = form_tag csv_gears_url do
   table class="table table-striped"
