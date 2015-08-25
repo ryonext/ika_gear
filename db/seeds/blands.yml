@@ -1,0 +1,86 @@
+---
+blands_1:
+  id: 1
+  name: "ジモン"
+  high_appearance_gear_power_id: 1
+  low_appearance_gear_power_id: 8
+blands_2:
+  id: 2
+  name: "ホッコリー"
+  high_appearance_gear_power_id: 2
+  low_appearance_gear_power_id: 3
+blands_3:
+  id: 3
+  name: "アロメ"
+  high_appearance_gear_power_id: 3
+  low_appearance_gear_power_id: 12
+blands_4:
+  id: 4
+  name: "バトロイカ"
+  high_appearance_gear_power_id: 4
+  low_appearance_gear_power_id: 1
+blands_5:
+  id: 5
+  name: "シグレニ"
+  high_appearance_gear_power_id: 5
+  low_appearance_gear_power_id: 4
+blands_6:
+  id: 6
+  name: "ヤコ"
+  high_appearance_gear_power_id: 6
+  low_appearance_gear_power_id: 7
+blands_7:
+  id: 7
+  name: "フォーリマ"
+  high_appearance_gear_power_id: 7
+  low_appearance_gear_power_id: 2
+blands_8:
+  id: 8
+  name: "ロッケンベルグ"
+  high_appearance_gear_power_id: 8
+  low_appearance_gear_power_id: 9
+blands_9:
+  id: 9
+  name: "クラーゲス"
+  high_appearance_gear_power_id: 9
+  low_appearance_gear_power_id: 5
+blands_10:
+  id: 10
+  name: "ホタックス"
+  high_appearance_gear_power_id: 10
+  low_appearance_gear_power_id: 11
+blands_11:
+  id: 11
+  name: "エゾッコ"
+  high_appearance_gear_power_id: 11
+  low_appearance_gear_power_id: 6
+blands_12:
+  id: 12
+  name: "アイロニック"
+  high_appearance_gear_power_id: 12
+  low_appearance_gear_power_id: 10
+blands_13:
+  id: 13
+  name: amiibo
+  high_appearance_gear_power_id: 
+  low_appearance_gear_power_id: 
+blands_14:
+  id: 14
+  name: "アタリメイド"
+  high_appearance_gear_power_id: 
+  low_appearance_gear_power_id: 
+blands_15:
+  id: 15
+  name: KOG
+  high_appearance_gear_power_id: 
+  low_appearance_gear_power_id: 
+blands_16:
+  id: 16
+  name: "侵略！イカ娘"
+  high_appearance_gear_power_id: 
+  low_appearance_gear_power_id: 
+blands_17:
+  id: 17
+  name: "ファミ通"
+  high_appearance_gear_power_id: 
+  low_appearance_gear_power_id: 

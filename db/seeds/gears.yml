@@ -1,0 +1,36 @@
+---
+gears_1:
+  name: "ヘッドバンド ホワイト"
+  part: 1
+  price: "－"
+  gear_power_id: 3
+  salable: 0
+  bland_id: 4
+gears_2:
+  name: "キャディ サンバイザー"
+  part: 1
+  price: 400
+  gear_power_id: 8
+  salable: 1
+  bland_id: 12
+gears_3:
+  name: "スカッシュバンド"
+  part: 1
+  price: 400
+  gear_power_id: 4
+  salable: 1
+  bland_id: 12
+gears_4:
+  name: "バスケバンド"
+  part: 1
+  price: 300
+  gear_power_id: 13
+  salable: 1
+  bland_id: 12
+gears_5:
+  name: "テニスバンド"
+  part: 1
+  price: 300
+  gear_power_id: 14
+  salable: 1
+  bland_id: 3

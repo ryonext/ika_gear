@@ -1,0 +1,43 @@
+---
+gear_powers_1:
+  id: 1
+  name: "インク効率アップ（メイン）"
+gear_powers_2:
+  id: 2
+  name: "インク効率アップ（サブ）"
+gear_powers_3:
+  id: 3
+  name: "インク回復力アップ"
+gear_powers_4:
+  id: 4
+  name: "攻撃力アップ"
+gear_powers_5:
+  id: 5
+  name: "防御力アップ"
+gear_powers_6:
+  id: 6
+  name: "スペシャル増加量アップ"
+gear_powers_7:
+  id: 7
+  name: "スペシャル時間延長"
+gear_powers_8:
+  id: 8
+  name: "ヒト移動速度アップ"
+gear_powers_9:
+  id: 9
+  name: "イカダッシュ速度アップ"
+gear_powers_10:
+  id: 10
+  name: "復活時間短縮"
+gear_powers_11:
+  id: 11
+  name: "スペシャル減少量ダウン"
+gear_powers_12:
+  id: 12
+  name: "スーパージャンプ時間短縮"
+gear_powers_13:
+  id: 13
+  name: "スタートダッシュ"
+gear_powers_14:
+  id: 14
+  name: "カムバック"
