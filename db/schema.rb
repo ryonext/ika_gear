@@ -30,10 +30,11 @@ ActiveRecord::Schema.define(version: 20150825042318) do
   create_table "gears", force: :cascade do |t|
     t.string   "name"
     t.integer  "part"
+    t.integer  "bland_id"
     t.integer  "gear_power_id"
+    t.integer  "rarity"
     t.integer  "price"
     t.boolean  "salable"
-    t.integer  "bland_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
