@@ -1,13 +1,6 @@
 - model_class = Gear
 div class="page-header"
   h1=t '.title', :default => model_class.model_name.human.pluralize.titleize
-  ul
-    li
-      =link_to "アタマ", gears_path(part: :head)
-    li
-      =link_to "フク", gears_path(part: :clothes)
-    li
-      =link_to "クツ", gears_path(part: :shoes)
 
 = form_tag csv_gears_url do
   table class="table table-striped"
@@ -19,7 +12,6 @@ div class="page-header"
         th= model_class.human_attribute_name(:price)
         th= model_class.human_attribute_name(:salable)
         th= model_class.human_attribute_name(:bland_id)
-        th= model_class.human_attribute_name(:created_at)
         th=t '.actions', :default => t("helpers.actions")
     tbody
         - @gears.each do |gear|
@@ -30,6 +22,5 @@ div class="page-header"
             td= gear.price
             td= gear.salable
             td= gear.bland_id
-            td=l gear.created_at
             td= check_box_tag "gear[id][]", gear.id
   = submit_tag "CSV出力"
