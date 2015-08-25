@@ -2,7 +2,7 @@ class GearsController < ApplicationController
   # GET /gears
   # GET /gears.json
   def index
-    @gears = Gear.where(part: part_param)
+    @gears = Gear.where(part: Gear.parts[part_param])
   end
 
   private
