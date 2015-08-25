@@ -7,7 +7,7 @@ module GearDecorator
     when :clothes
       "フク"
     when :shoes
-      "シューズ"
+      "クツ"
     end
   end
 
