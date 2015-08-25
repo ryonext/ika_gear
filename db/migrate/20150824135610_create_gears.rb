@@ -3,7 +3,7 @@ class CreateGears < ActiveRecord::Migration
     create_table :gears do |t|
       t.string :name
       t.integer :part
-      t.integer :gear_power
+      t.references :gear_power, index: true
       t.integer :price
       t.boolean :salable
       t.references :bland, index: true
