@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   end
 
   resources :blands, only: [:show]
+  resources :gear_powers, only: [:show]
 
   root "gears#index"
 end
