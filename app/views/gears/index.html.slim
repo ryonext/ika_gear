@@ -24,10 +24,10 @@ div class="page-header"
           tr
             td= check_box_tag "gear[id][]", gear.id
             td= gear.name
-            td= gear.humanize_part
+            td= link_to gear.humanize_part, gears_path(part: gear.part)
             td= gear.gear_power.name
             td= gear.not_for_sale
-            td= gear.bland.name
+            td= link_to gear.bland.name, gear.bland
             td= gear.bland.try(:high_rate).try(:name)
             td= gear.bland.try(:low_rate).try(:name)
   = hidden_field_tag @part
