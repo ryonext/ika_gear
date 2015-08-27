@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :blands, only: [:show]
+
   root "gears#index"
 end
