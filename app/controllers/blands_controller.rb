@@ -5,10 +5,4 @@ class BlandsController < ApplicationController
     @condition = bland.name
     render "gears/index"
   end
-
-  private
-    def part_param
-      return :head unless params[:part]
-      params[:part]
-    end
 end
