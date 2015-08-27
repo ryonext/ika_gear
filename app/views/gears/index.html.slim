@@ -2,6 +2,7 @@
 div class="page-header"
   h2 使い方
   p 持ってないギアにチェックして、"CSV出力"ボタンを押すとそのギア達がCSVに出るので広場からダウニー発注する時にお使いください
+  h2=condition_text(@condition)
   ul
     li=link_to "アタマ", gears_path(part: :head)
     li=link_to "フク", gears_path(part: :clothes)
@@ -24,7 +25,7 @@ div class="page-header"
           tr
             td= check_box_tag "gear[id][]", gear.id
             td= gear.name
-            td= link_to gear.humanize_part, gears_path(part: gear.part)
+            td= link_to humanize_part(gear.part), gears_path(part: gear.part)
             td= gear.gear_power.name
             td= gear.not_for_sale
             td= link_to gear.bland.name, gear.bland

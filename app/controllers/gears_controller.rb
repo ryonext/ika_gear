@@ -4,6 +4,7 @@ class GearsController < ApplicationController
   def index
     @gears = Gear.where(part: Gear.parts[part_param]).with_bland_and_power
     @part = part_param
+    @condition = part_param
   end
 
   def csv
