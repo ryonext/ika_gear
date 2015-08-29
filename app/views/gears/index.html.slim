@@ -12,7 +12,7 @@ div class="page-header"
   table class="table table-striped"
     thead
       tr
-        th= "持ってない！"
+        th= ""
         th= "名前"
         th= "部位"
         th= "メインギアパワー"
@@ -23,7 +23,7 @@ div class="page-header"
     tbody
         - @gears.each do |gear|
           tr
-            td= check_box_tag "gear[id][]", gear.id, false, { "data-on-text" =>  "持ってる", "data-off-text" => "持ってない" }
+            td= check_box_tag "gear[id][]", gear.id, true, { "data-on-text" =>  "持ってない", "data-off-text" => "持ってる" }
             td= gear.name
             td= link_to humanize_part(gear.part), gears_path(part: gear.part)
             td= link_to gear.gear_power.name, gear.gear_power
