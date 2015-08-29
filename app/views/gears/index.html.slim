@@ -23,7 +23,7 @@ div class="page-header"
     tbody
         - @gears.each do |gear|
           tr
-            td= check_box_tag "gear[id][]", gear.id
+            td= check_box_tag "gear[id][]", gear.id, false, { "data-on-text" =>  "持ってる", "data-off-text" => "持ってない" }
             td= gear.name
             td= link_to humanize_part(gear.part), gears_path(part: gear.part)
             td= link_to gear.gear_power.name, gear.gear_power
