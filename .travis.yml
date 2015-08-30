@@ -1,4 +1,6 @@
 launguage: ruby
+rvm:
+  - 2.2.2
 install: bundle install --deployment
 cache:
   directories: vendor/bundle
