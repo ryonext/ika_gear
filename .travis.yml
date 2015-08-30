@@ -1,0 +1,5 @@
+launguage: ruby
+install: bundle install --deployment
+cache:
+  directories: vendor/bundle
+
