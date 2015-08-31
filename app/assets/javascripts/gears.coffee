@@ -5,3 +5,9 @@
 $(document).on 'ready page:load', ->
   $("[name='gear[id][]']").bootstrapSwitch()
 
+  manmenmeCount = 0
+
+  $("#manmenme").click ->
+    manmenmeCount++
+    $("#manmenme-val").text(manmenmeCount)
+
