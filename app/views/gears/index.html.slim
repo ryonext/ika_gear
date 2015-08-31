@@ -7,6 +7,10 @@ div class="page-header"
     li=link_to "アタマ", gears_path(part: :head)
     li=link_to "フク", gears_path(part: :clothes)
     li=link_to "クツ", gears_path(part: :shoes)
+  h3
+    button type="button" class="btn btn-success" id="manmenme"
+      | ﾏﾝﾒﾝﾐ　
+      span.badge 1
 
 = form_tag csv_gears_url do
   table class="table table-striped"
