@@ -1,0 +1,2 @@
+class ManmenmeController < ApplicationController
+end
