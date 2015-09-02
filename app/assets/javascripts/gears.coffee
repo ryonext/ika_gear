@@ -4,10 +4,16 @@
 
 $(document).on 'ready page:load', ->
   $("[name='gear[id][]']").bootstrapSwitch()
+  manmenmeCount = $.get "/manmenmes", {} ,
+    (data) ->
+      manmenmeCount = data.count
 
   manmenmeCount = 0
 
   $("#manmenme").click ->
     manmenmeCount++
+    $("#manmenme-val").text(manmenmeCount)
+
+  setManmenme = ->
     $("#manmenme-val").text(manmenmeCount)
 
