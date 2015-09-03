@@ -43,8 +43,9 @@ ActiveRecord::Schema.define(version: 20150901143837) do
   add_index "gears", ["gear_power_id"], name: "index_gears_on_gear_power_id"
 
   create_table "manmenmes", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "count",      default: 0
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end

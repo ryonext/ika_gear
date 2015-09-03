@@ -1,6 +1,7 @@
 class ManmenmesController < ApplicationController
   def create
-    manmenme = Manmenme.new
+    manmenme = Manmenme.find_or_initialize_by(id: 1)
+    manmenme.count += 1
 
     if manmenme.save
       render nothing: true, status: :created
@@ -10,6 +11,6 @@ class ManmenmesController < ApplicationController
   end
 
   def index
-    render json: { count: Manmenme.count }
+    render json: { count: Manmenme.find(1).count }
   end
 end
