@@ -11,7 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150906045946) do
+ActiveRecord::Schema.define(version: 20150906055813) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "blands", force: :cascade do |t|
     t.string   "name"
@@ -39,9 +42,9 @@ ActiveRecord::Schema.define(version: 20150906045946) do
     t.datetime "updated_at",    null: false
   end
 
-  add_index "gears", ["bland_id"], name: "index_gears_on_bland_id"
-  add_index "gears", ["gear_power_id"], name: "index_gears_on_gear_power_id"
-  add_index "gears", ["name"], name: "index_gears_on_name", unique: true
+  add_index "gears", ["bland_id"], name: "index_gears_on_bland_id", using: :btree
+  add_index "gears", ["gear_power_id"], name: "index_gears_on_gear_power_id", using: :btree
+  add_index "gears", ["name"], name: "index_gears_on_name", unique: true, using: :btree
 
   create_table "manmenmes", force: :cascade do |t|
     t.integer  "count",      default: 0
