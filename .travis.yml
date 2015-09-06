@@ -4,4 +4,7 @@ rvm:
 install: bundle install --deployment
 cache:
   directories: vendor/bundle
-
+addons:
+  postgresql: "9.3"
+before_script:
+  - psql -c 'create database ika_test;' -U postgres
