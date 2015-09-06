@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150901143837) do
+ActiveRecord::Schema.define(version: 20150906045946) do
 
   create_table "blands", force: :cascade do |t|
     t.string   "name"
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 20150901143837) do
 
   add_index "gears", ["bland_id"], name: "index_gears_on_bland_id"
   add_index "gears", ["gear_power_id"], name: "index_gears_on_gear_power_id"
+  add_index "gears", ["name"], name: "index_gears_on_name", unique: true
 
   create_table "manmenmes", force: :cascade do |t|
     t.integer  "count",      default: 0

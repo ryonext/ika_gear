@@ -8,7 +8,7 @@ class GearsController < ApplicationController
   end
 
   def csv
-    @gears = Gear.where(id: gear_ids)
+    @gears = Gear.where(id: gear_ids).with_bland_and_power
     send_data render_to_string, filename: csv_file_name, type: :csv
   end
 
